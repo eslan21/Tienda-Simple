@@ -213,14 +213,22 @@ main{
 }
 .addElement div{
     width: 100%;
+    background-color: rgb(235, 166, 63);
+
 }
 
 .addElement div img{
     max-width: 100%;
+    
 }
 .addElement .cantidadPrecio{
     display: flex; 
     flex-direction: column;
+    background-color: rgb(235, 166, 63);
+    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 2px 2px 2px rgba(206,89,55,0);
+    font-weight: bold;
+
+
 }
 .addElement .cantidadPrecio .block_1{
     display: flex;
@@ -252,6 +260,8 @@ main{
     font-size: 3vh;
     font-weight: bold;
     text-align: center;
+    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 2px 2px 2px rgba(206,89,55,0);
+
 
 }
 
